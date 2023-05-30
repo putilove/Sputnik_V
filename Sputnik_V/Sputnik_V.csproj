@@ -93,6 +93,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Common\ErrorModeConsts.cs" />
+    <Compile Include="Common\ErrorTypeConsts.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -100,7 +102,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\BCVM.cs" />
-    <Compile Include="Model\ParameterConsts.cs" />
+    <Compile Include="Model\ControlDevice.cs" />
+    <Compile Include="Model\ErrorCorrector.cs" />
+    <Compile Include="Model\ErrorGenerator.cs" />
+    <Compile Include="Model\FlyWheelEngine.cs" />
+    <Compile Include="Common\ParameterConsts.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
